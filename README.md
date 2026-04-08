@@ -27,14 +27,14 @@ ByteBazaar is a Java-based console application that simulates the core functiona
 ---
 
 ## 📁 Project Structure
-shopping_cart/
-│── MainApp.java
-│── Product.java
-│── CartItem.java
-│── ProductService.java
-│── CartService.java
-│── OrderService.java
-│── DBConnection.java
+- shopping_cart/
+- │── MainApp.java
+- │── Product.java
+- │── CartItem.java
+- │── ProductService.java
+- │── CartService.java
+- │── OrderService.java
+- │── DBConnection.java
 
 
 ---
@@ -52,7 +52,7 @@ shopping_cart/
 
 ### 1️⃣ Clone Repository
 
-git clone https://github.com/your-username/bytebazaar-shopping-cart-java.git
+-git clone https://github.com/your-username/bytebazaar-shopping-cart-java.git
 cd bytebazaar-shopping-cart-java
 Add MySQL Connector
 
@@ -60,17 +60,21 @@ Add MySQL Connector
 Download MySQL Connector JAR and place it in the project folder.
 
 ### 3️⃣ Compile & Run
-javac -cp ".;mysql-connector-j-8.0.33.jar" shopping_cart/*.java
-java -cp ".;mysql-connector-j-8.0.33.jar" shopping_cart.MainApp
+- javac -cp ".;mysql-connector-j-8.0.33.jar" shopping_cart/*.java
+- java -cp ".;mysql-connector-j-8.0.33.jar" shopping_cart.MainApp
+
 ---
+
 ## 🧠 System Flow
-View Products
-Add to Cart
-View / Remove Cart Items
-Checkout
-Store Order in Database
-Update Stock
+- View Products
+- Add to Cart
+- View / Remove Cart Items
+- Checkout
+- Store Order in Database
+- Update Stock
+  
 ---
+
 ## 📊 Sample Output
 Welcome to ByteBazaar 🛒
 1. View Products
@@ -78,14 +82,18 @@ Welcome to ByteBazaar 🛒
 3. View Cart
 4. Checkout
 5. Exit
+   
 ---
+
 ## 🔮 Future Enhancements
 GUI (JavaFX / Swing)
 Web version (Spring Boot)
 User authentication system
 Payment gateway integration
 Recommendation system
+
 ---
+
 ## 👨‍💻 Authors
 Krishnandu Das
 
