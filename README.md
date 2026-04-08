@@ -27,15 +27,21 @@ ByteBazaar is a Java-based console application that simulates the core functiona
 ---
 
 ## 📁 Project Structure
-- shopping_cart/
-- │── MainApp.java
-- │── Product.java
-- │── CartItem.java
-- │── ProductService.java
-- │── CartService.java
-- │── OrderService.java
-- │── DBConnection.java
+shopping_cart/
 
+│── MainApp.java
+
+│── Product.java
+
+│── CartItem.java
+
+│── ProductService.java
+
+│── CartService.java
+
+│── OrderService.java
+
+│── DBConnection.java
 
 ---
 
